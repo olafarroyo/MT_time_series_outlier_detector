@@ -1,3 +1,22 @@
+%MATLAB script to detect outliers in MT data series, based on a tolerance
+%ellipse with center and axes defined by the statistical properties of
+%data.
+%
+%Written by: Olaf J. Cort?s Arroyo (CEMIE-GEO, CICESE)
+%December 2018
+%
+%Detailed information of variables and theory in the PDF file included 
+%with this algorithm in the GitHub repository: 
+%https://github.com/olafarroyo/MT_time_series_outlier_detector
+%
+%If you find this algorithm useful, please use the following DOI in your 
+%publication for citation:
+%DOI: 10.5281/zenodo.2006797
+%
+%Any comments or suggestions, please contact me trough Researchgate:
+%https://www.researchgate.net/profile/Olaf_Cortes-Arroyo
+%
+%
 function[nc]=tolerance_ellipse(S,F,mode)
 
 %Calculate size of matrix S
